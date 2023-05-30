@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #535353
+}
+
+.users {
+    width: 1024px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.todos {
+    width: 1024px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 15px;
+}
+
+.album {
+    width: 1024px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 15px;
+}
+
+.posts {
+    width: 1024px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 15px;
+}
